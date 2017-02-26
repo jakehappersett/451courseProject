@@ -1,8 +1,8 @@
 ﻿<%@ Page Title="Contact" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Contact.aspx.cs" Inherits="_451ecommerce.Contact" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
-    <h2>ContactUs</h2>
-    <h3>Contact Us</h3>
+    <h2>Contact Us</h2>
+    <h3>Address:</h3>
     <address>
         55 Dontknow Circle<br />
         Richmond, VA 68889<br />
