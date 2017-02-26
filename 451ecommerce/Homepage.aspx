@@ -5,7 +5,7 @@
     <div class="jumbotron">
         <h1>Wheelie Great Bikes</h1>
         <p class="lead">We sell the best bikes there are</p>
-        <p><a href="~/About" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
+        <p><a href="/About" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
     </div>
 
     <div class="row">
@@ -14,7 +14,7 @@
             <p>
                 Wheelie Great Bikes offers a variety of general &amp; specialized biking equipment and accessories.</p>
             <p>
-                <a class="btn btn-default" href="~/Products">Products</a>
+                <a class="btn btn-default" href="/Products">Products</a>
             </p>
         </div>
         <div class="col-md-4">
@@ -24,7 +24,7 @@
                 To shop with us, we will require your name, mailing address, and payment informaton.
             </p>
             <p>
-                <a class="btn btn-default" href="~/CustomerLogin">Login &raquo;</a>
+                <a class="btn btn-default" href="/CustomerLogin">Login &raquo;</a>
             </p>
         </div>
         <div class="col-md-4">
@@ -32,7 +32,7 @@
             <p>
                 Have any questions about our site? Look here for our contact information.</p>
             <p>
-                <a class="btn btn-default" href="~/Contact">Learn more &raquo;</a>
+                <a class="btn btn-default" href="/Contact">Learn more &raquo;</a>
             </p>
         </div>
     </div>
