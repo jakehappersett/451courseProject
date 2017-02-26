@@ -80,11 +80,11 @@
                 </div>
             </div>
         </div>
-        <div class="container body-content">
+        <div class="container body-content" style="background-color: #CCCCCC">
             <asp:ContentPlaceHolder ID="MainContent" runat="server">
             </asp:ContentPlaceHolder>
             <hr />
-            <footer><center>
+            <footer style="background-color: #006666"><center>
                 <p><span class="auto-style1">&copy; <%: DateTime.Now.Year %> - Team B Inc</span>. </p>
             </center></footer>
         </div>
