@@ -18,7 +18,8 @@
             </p>
         </div>
         <div class="col-md-4">
-            <h2>Are You New? Sign up/Log In</h2>
+            <h2>Are You New? </h2>
+            <h2>Sign up/Log In</h2>
             <p>
                 To shop with us, we will require your name, mailing address, and payment informaton.
             </p>
