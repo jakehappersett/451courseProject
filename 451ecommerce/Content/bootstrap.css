@@ -761,6 +761,7 @@ pre code {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+    background-color: #006666;
 }
 
 .container:before,
@@ -4216,7 +4217,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
   margin-top: 8px;
   margin-right: 15px;
   margin-bottom: 8px;
-  background-color: transparent;
+  background-color: #FFFFFF;
   border: 1px solid transparent;
   border-radius: 4px;
 }
@@ -4501,12 +4502,13 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 
 .navbar-inverse {
-  background-color: #222222;
+  background-color: #006666;
   border-color: #080808;
 }
 
 .navbar-inverse .navbar-brand {
   color: #999999;
+    background-color: #006666;
 }
 
 .navbar-inverse .navbar-brand:hover,
