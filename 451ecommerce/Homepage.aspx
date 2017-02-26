@@ -24,7 +24,7 @@
                 To shop with us, we will require your name, mailing address, and payment informaton.
             </p>
             <p>
-                <a class="btn btn-default" href="/CustomerLogin">Login &raquo;</a>
+                <a class="btn btn-default" href="Account/Login">Login </a>
             </p>
         </div>
         <div class="col-md-4">
