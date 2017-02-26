@@ -18,6 +18,13 @@
         .auto-style1 {
             color: #CCFFFF;
         }
+        .auto-style2 {
+            float: left;
+            padding: 15px 15px;
+            font-size: 18px;
+            line-height: 20px;
+            color: #FFFFFF;
+        }
     </style>
 
 </head>
@@ -52,7 +59,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" runat="server" href="~/Homepage">Wheelie Great Bikes</a>
+                    <a class="auto-style2" runat="server" href="~/Homepage">Wheelie Great Bikes</a>
                 </div>
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
