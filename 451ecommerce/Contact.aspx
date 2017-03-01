@@ -10,6 +10,6 @@
         (804)-555-5555</address>
 
     <address>
-        Email<strong>:</strong>   <a href="mailto:wgbikes@gmail.com">wgbikes@gmail.com</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        Email<strong>:</strong>   <a href="mailto:wheegbikes@gmail.com">wgbikes@gmail.com</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     </address>
 </asp:Content>
