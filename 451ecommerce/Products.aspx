@@ -36,4 +36,15 @@
     <br />
     <h4>(Helmet product #3)</h4>
     <p>(description)</p>
+
+    <asp:SqlDataSource 
+        ID="matterhorn" 
+        runat="server"
+        SelectCommand="SELECT * from Products"
+        ConnectionString="<%$ ConnectionStrings:matterhorn %>">
+    </asp:SqlDataSource>
+
+
 </asp:Content>
+
+
