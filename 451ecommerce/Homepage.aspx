@@ -7,7 +7,7 @@
         <p class="lead">We sell the best bikes there are</p>
         <p><a href="/About" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
     </div>
-
+    
     <div class="row">
         <div class="col-md-4">
             <h2>Product Page</h2>
@@ -16,6 +16,7 @@
             <p>
                 <a class="btn btn-default" href="/Products">Products</a>
             </p>
+            
         </div>
         <div class="col-md-4">
             <h2>Are You New? </h2>
@@ -36,5 +37,12 @@
             </p>
         </div>
     </div>
+
+    <asp:SqlDataSource
+        ID="matterhorn"
+        runat="server"
+        ConnectionString="<%$ ConnectionStrings:matterhorn %>"
+        SelectCommand="SELECT * FROM products">
+    </asp:SqlDataSource>
 
 </asp:Content>
