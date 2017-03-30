@@ -24,14 +24,25 @@
                 HeaderText="Price"
                 HtmlEncode="false"
                 DataFormatString="{0:c}" />
+            <asp:BoundField
+                DataField="product_description"
+                HeaderText="Description" />
+            <asp:ImageField
+                AccessibleHeaderText="ProductImage"
+                DataImageUrlField="product_image">
+            </asp:ImageField>
         </Columns>
     </asp:GridView>
 
     <asp:SqlDataSource
-        ID="matterhorn"
+        ID="srcDetails"
         runat="server"
         ConnectionString="<%$ ConnectionStrings:matterhorn %>"
-        SelectCommand="SELECT * FROM products">
+        SelectCommand="SELECT product_name,product_price,product_description,product_image FROM products WHERE product_id=@product_id">
+        <SelectParameters>
+            <asp:QueryStringParameter Name="product_id"
+                QueryStringField="product_id" />
+        </SelectParameters>
     </asp:SqlDataSource>
 
     </div>

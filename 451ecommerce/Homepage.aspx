@@ -39,10 +39,10 @@
     </div>
 
     <asp:SqlDataSource
-        ID="matterhorn"
+        ID="srcHomepage"
         runat="server"
         ConnectionString="<%$ ConnectionStrings:matterhorn %>"
-        SelectCommand="SELECT * FROM products">
+        SelectCommand="SELECT product_name,product_price,product_description,product_image FROM products">
     </asp:SqlDataSource>
 
 </asp:Content>
