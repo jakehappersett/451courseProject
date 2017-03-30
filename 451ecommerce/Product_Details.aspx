@@ -1,14 +1,8 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Product_Details.aspx.cs" Inherits="_451ecommerce.Product_Details" %>
+﻿<%@ Page Title="Product Details" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Product_Details.aspx.cs" Inherits="_451ecommerce.Product_Details" %>
 
-<!DOCTYPE html>
-
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
-    <title></title>
-</head>
-<body>
-    <form id="form1" runat="server">
-    <div>
+<asp:Content ID="Content1" 
+    ContentPlaceHolderID="MainContent"
+    runat="server">
     
     <asp:GridView
         ID="ProductDetails"
@@ -45,7 +39,4 @@
         </SelectParameters>
     </asp:SqlDataSource>
 
-    </div>
-    </form>
-</body>
-</html>
+</asp:Content>
