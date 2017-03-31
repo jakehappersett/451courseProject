@@ -47,8 +47,8 @@
 
 </asp:Content>--%>
 
-
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">>
+<div>
     <asp:GridView runat="server" ID="ProductList" DataSourceID="getProducts" AutoGenerateColumns="false">
         <Columns>
             <%--<asp:BoundField DataField="product_description" HeaderText="Product"/>--%>
@@ -58,6 +58,7 @@
         </Columns>
 
     </asp:GridView>
+</div>
 
     <asp:SqlDataSource ID="getProducts" runat="server" ConnectionString="<%$ ConnectionStrings:matterhorn %>"
         SelectCommand="SELECT product_id, product_name, product_price FROM product"></asp:SqlDataSource>
