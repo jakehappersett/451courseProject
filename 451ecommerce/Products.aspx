@@ -52,7 +52,7 @@
     <asp:GridView runat="server" ID="ProductList" DataSourceID="getProducts" AutoGenerateColumns="false">
         <Columns>
             <%--<asp:BoundField DataField="product_description" HeaderText="Product"/>--%>
-            <asp:HyperLinkField HeaderText="Product" DataTextField="product_name" DataNavigateUrlFields="product_id" DataNavigateUrlFormatString="ProductDetails.aspx?product_id={0}"/>
+            <asp:HyperLinkField HeaderText="Product" DataTextField="product_name" DataNavigateUrlFields="product_id" DataNavigateUrlFormatString="Product_Details.aspx?product_id={0}"/>
             <asp:BoundField DataField="product_price" DataFormatString="{0:c}" HtmlEncode="false" HeaderText="Price"/>
             <%--<asp:BoundField DataField="img_src" />--%>
         </Columns>

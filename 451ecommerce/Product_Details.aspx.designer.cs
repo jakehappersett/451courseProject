@@ -13,21 +13,21 @@ namespace _451ecommerce {
     public partial class Product_Details {
         
         /// <summary>
-        /// ProductDetails control.
+        /// ProductDetailsView control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.GridView ProductDetails;
+        protected global::System.Web.UI.WebControls.GridView ProductDetailsView;
         
         /// <summary>
-        /// srcDetails control.
+        /// ProductView control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.SqlDataSource srcDetails;
+        protected global::System.Web.UI.WebControls.SqlDataSource ProductView;
     }
 }
