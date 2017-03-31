@@ -42,7 +42,8 @@
      AutoGenerateColumns="false"
      runat="server">
      <Columns>
-         <asp:BoundField DataField="product_description" HeaderText="Product"/>
+         <asp:BoundField DataField="product_name" HeaderText="Name"/>
+         <asp:BoundField DataField="product_description" HeaderText="Description"/>
          <asp:BoundField DataField="product_price" DataFormatString="{0:c}" HtmlEncode="false" HeaderText="Price"/>
          <asp:ImageField AccessibleHeaderText="product_image" DataImageUrlField="product_image"></asp:ImageField>
      </Columns>
