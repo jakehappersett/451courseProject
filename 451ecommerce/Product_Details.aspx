@@ -31,7 +31,7 @@
     <asp:SqlDataSource
         ID="srcDetails"
         runat="server"
-        ConnectionString="<%$ ConnectionStrings:matterhorn %>"
+        ConnectionString="<%$ ConnectionStrings:matterhorn%>"
         SelectCommand="SELECT product_name,product_price,product_description,product_image FROM products WHERE product_id=@product_id">
         <SelectParameters>
             <asp:QueryStringParameter Name="product_id"
