@@ -13,5 +13,16 @@ namespace _451ecommerce
         {
 
         }
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            Product newProd = new Product();
+
+            newProd.Name = ProductDetailsView.Rows[0].Cells[0].Text.ToString();
+
+            Label1.Text = newProd.Name;
+
+
+        }
     }
 }

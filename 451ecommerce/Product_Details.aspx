@@ -12,7 +12,7 @@
          <asp:BoundField DataField="product_name" HeaderText="Name"/>
          <asp:BoundField DataField="product_description" HeaderText="Description"/>
          <asp:BoundField DataField="product_price" DataFormatString="{0:c}" HtmlEncode="false" HeaderText="Price"/>
-         <asp:ImageField AccessibleHeaderText="product_image" DataImageUrlField="product_image"></asp:ImageField>
+         <asp:ImageField AccessibleHeaderText="product_image" ></asp:ImageField>
      </Columns>
         <EditRowStyle BackColor="#7C6F57" />
         <FooterStyle BackColor="#1C5E55" Font-Bold="True" ForeColor="White" />
@@ -25,10 +25,12 @@
         <SortedDescendingCellStyle BackColor="#D4DFE1" />
         <SortedDescendingHeaderStyle BackColor="#15524A" />
 </asp:GridView>
+     <asp:Button ID="Button1" runat="server" Text="Button" OnClick="Button1_Click" />
+     <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
     </div>
 <asp:SqlDataSource ID="ProductView"
      ConnectionString="<%$ ConnectionStrings:matterhorn %>"
-     SelectCommand="SELECT product_name,product_price,product_description,product_image FROM product WHERE product_id=@product_id"
+     SelectCommand="SELECT product_name,product_price,product_description FROM product WHERE product_id=@product_id"
      runat="server">
      <SelectParameters>
          <asp:QueryStringParameter Name="product_id"
