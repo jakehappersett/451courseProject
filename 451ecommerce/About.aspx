@@ -3,7 +3,7 @@
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <div class="jumbotron">
     <h2><%: Title %>.</h2>
-    <p>This is us,we sell bikes</p>
+    <p>This is us, we sell bikes</p>
 </div>
  <div class="row">
     <div class="col-md-4">
@@ -21,7 +21,7 @@
      <div class="col-md-4">
         <body>
         <h3>Michael Cohen</h3>
-        <p>Bikes on ocassion.</p>
+        <p>Bikes on occassion.</p>
         </body>
     </div>
    </div>
