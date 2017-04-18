@@ -25,8 +25,6 @@
         <SortedDescendingCellStyle BackColor="#D4DFE1" />
         <SortedDescendingHeaderStyle BackColor="#15524A" />
 </asp:GridView>
-     <asp:Button ID="Button1" runat="server" Text="Button" OnClick="Button1_Click" />
-     <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
     </div>
 <asp:SqlDataSource ID="ProductView"
      ConnectionString="<%$ ConnectionStrings:matterhorn %>"
