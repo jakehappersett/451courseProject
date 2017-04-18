@@ -184,6 +184,7 @@
   <ItemGroup>
     <Content Include="About.aspx" />
     <Content Include="AdminLogin.aspx" />
+    <Content Include="Cart.aspx" />
     <Content Include="CustomerLogin.aspx" />
     <Content Include="Products.aspx" />
     <Content Include="Account\AddPhoneNumber.aspx" />
@@ -384,6 +385,15 @@
       <DependentUpon>AdminLogin.aspx</DependentUpon>
     </Compile>
     <Compile Include="App_Start\BundleConfig.cs" />
+    <Compile Include="Cart.aspx.cs">
+      <DependentUpon>Cart.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cart.aspx.designer.cs">
+      <DependentUpon>Cart.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cart.cs" />
+    <Compile Include="CartItem.cs" />
     <Compile Include="CustomerLogin.aspx.cs">
       <DependentUpon>CustomerLogin.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
