@@ -36,6 +36,6 @@
      </SelectParameters>
 </asp:SqlDataSource>
 
-    <asp:Button ID="btnAddToCart" runat="server" OnClick="Button1_Click" Text="Add To Cart" />
+    <asp:Button ID="btnAddToCart" runat="server" OnClick="btnAddToCart_Click" Text="Add To Cart" />
 
 </asp:Content>
