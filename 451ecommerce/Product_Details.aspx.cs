@@ -24,7 +24,7 @@ namespace _451ecommerce
             }
             string id = Request.QueryString["product_id"];
             myCart = (Cart)Session["myCart"];
-            
+            DataTable  
             // this function uses the DataTable that he creates to figure out which row
             // At 1:00:00 in the Vid is when he/she is around this part
 

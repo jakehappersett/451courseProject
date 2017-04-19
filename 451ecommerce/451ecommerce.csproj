@@ -394,6 +394,7 @@
     </Compile>
     <Compile Include="Cart.cs" />
     <Compile Include="CartItem.cs" />
+    <Compile Include="DataAccess.cs" />
     <Compile Include="CustomerLogin.aspx.cs">
       <DependentUpon>CustomerLogin.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
