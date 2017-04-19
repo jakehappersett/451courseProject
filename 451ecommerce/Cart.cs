@@ -7,7 +7,7 @@ namespace _451ecommerce
 {
     public class Cart
     {
-        private List<CartItem> Items { get; set; }
+        public List<CartItem> Items { get; set; }
 
         public Cart()
         {

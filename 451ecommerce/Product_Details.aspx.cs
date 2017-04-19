@@ -25,13 +25,11 @@ namespace _451ecommerce
             }
             string id = Request.QueryString["product_id"];
             myCart = (Cart)Session["myCart"];
-            DataTable dt = DataAccess.selectQuery("SELECT * FROM Products WHERE ID = " + Request.QueryString["ID"]);
+            DataTable dt = DataAccess.selectQuery("SELECT * FROM Products WHERE product_id = " + Request.QueryString["product_id"]);
             DataRow row = dt.Rows[0];
-            //myCart.Insert(new CartItem(int32.Parse(id),row["NAME"].ToString()));
-            // this function uses the DataTable that he creates to figure out which row
-            // At 1:00:00 in the Vid is when he/she is around this part
+           
 
-           myCart.Insert(new CartItem(Int32.Parse(id),
+            myCart.Insert(new CartItem(Int32.Parse(id),
             row["product_name"].ToString(),
             row["product_image"].ToString(),
             row["product_description"].ToString(),
