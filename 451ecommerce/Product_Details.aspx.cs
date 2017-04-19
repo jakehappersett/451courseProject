@@ -25,7 +25,7 @@ namespace _451ecommerce
             }
             string id = Request.QueryString["product_id"];
             myCart = (Cart)Session["myCart"];
-            DataTable dt = DataAccess.selectQuery("SELECT * FROM Products WHERE product_id = " + Request.QueryString["product_id"]);
+            DataTable dt = DataAccess.selectQuery("SELECT * FROM Product WHERE product_id = " + Request.QueryString["product_id"]);
             DataRow row = dt.Rows[0];
            
 
