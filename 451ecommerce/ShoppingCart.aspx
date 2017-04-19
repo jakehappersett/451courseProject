@@ -9,7 +9,7 @@
             <asp:BoundField DataField="product_quantity" HeaderText="Quantity" />
             <asp:TemplateField HeaderText="Total">
                 <ItemTemplate>
-                    <asp:Label ID="Label1" runat="server" Text='<%# Double.Parse(Eval("product_price").ToString())*Int32.Parse(Eval"product_quantity").ToString()) %>'></asp:Label>
+                    <asp:Label ID="Label1" runat="server" Text='<%# Double.Parse(Eval("product_price").ToString())*Int32.Parse(Eval("product_quantity").ToString()) %>'></asp:Label>
                 </ItemTemplate>
             </asp:TemplateField>
             <asp:CommandField ShowEditButton="True" />

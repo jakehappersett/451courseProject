@@ -6,6 +6,7 @@ using System.Web.UI;
 using System.Web.UI.WebControls;
 
 
+
 namespace _451ecommerce
 {
     public partial class Cart1 : System.Web.UI.Page
@@ -26,6 +27,7 @@ namespace _451ecommerce
 
         private void FillData()
         {
+            // Y THIS NO WORK!!!!
             gvShoppingCart.DataSource = myCart.Items; //changed from private to public class (in Cart.cs)
             gvShoppingCart.DataBind();
             if (myCart.Items.Count == 0)
