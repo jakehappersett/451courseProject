@@ -18,7 +18,8 @@ namespace _451ecommerce
             {
                 Session["myCart"] = new Cart();
             }
-
+            //this is the line we missed WOOOOO
+            myCart = (Cart)Session["myCart"];
             if (!IsPostBack)
             {
                 FillData();
