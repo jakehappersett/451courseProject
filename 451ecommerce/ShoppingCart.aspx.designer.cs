@@ -10,7 +10,7 @@
 namespace _451ecommerce {
     
     
-    public partial class Cart1 {
+    public partial class ShoppingCart {
         
         /// <summary>
         /// gvShoppingCart control.

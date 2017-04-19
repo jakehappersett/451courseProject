@@ -5,11 +5,9 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-
-
 namespace _451ecommerce
 {
-    public partial class Cart1 : System.Web.UI.Page
+    public partial class ShoppingCart : System.Web.UI.Page
     {
         Cart myCart;
         protected void Page_Load(object sender, EventArgs e)
@@ -68,6 +66,5 @@ namespace _451ecommerce
             gvShoppingCart.EditIndex = e.NewEditIndex;
             FillData();
         }
-
     }
 }
