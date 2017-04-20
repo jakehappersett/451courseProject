@@ -10,6 +10,8 @@
         <body>
         <h3>Kristoffer Balinang</h3>
         <p>Commutes to school everyday on a hybrid. Has been a total of 3 bike crashes.</p>
+            <p></p>
+
         </body>
     </div>
      <div class="col-md-4">
