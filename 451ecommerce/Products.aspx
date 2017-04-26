@@ -2,7 +2,7 @@
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">&nbsp;<div>
     
-       <asp:GridView runat="server" ID="ProductList" DataSourceID="getProducts" AutoGenerateColumns="false" CssClass="center">
+<asp:GridView runat="server" ID="ProductList" DataSourceID="getProducts" AutoGenerateColumns="false" CssClass="center">
         <Columns>
             <%--<asp:BoundField DataField="product_description" HeaderText="Product"/>--%>
             <asp:HyperLinkField HeaderText="Product" DataTextField="product_name" DataNavigateUrlFields="product_id" DataNavigateUrlFormatString="Product_Details.aspx?product_id={0}"/>

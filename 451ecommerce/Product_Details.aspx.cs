@@ -13,7 +13,15 @@ namespace _451ecommerce
         Cart myCart;
         protected void Page_Load(object sender, EventArgs e)
         {
-
+           if (!IsPostBack)
+            {
+                string id = Request.QueryString["product_id"];
+                if (id != null)
+                {
+                    dl_prod.DataSource = DataAccess.selectQuery("SELECT * FROM product WHERE product_id = " + id);
+                    dl_prod.DataBind();
+                }
+            }
         }
 
         protected void  btnAddToCart_Click(object sender, EventArgs e)

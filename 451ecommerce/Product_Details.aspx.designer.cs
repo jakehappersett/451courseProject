@@ -13,22 +13,13 @@ namespace _451ecommerce {
     public partial class Product_Details {
         
         /// <summary>
-        /// ProductDetailsView control.
+        /// dl_prod control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.GridView ProductDetailsView;
-        
-        /// <summary>
-        /// ProductView control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.SqlDataSource ProductView;
+        protected global::System.Web.UI.WebControls.DataList dl_prod;
         
         /// <summary>
         /// btnAddToCart control.
@@ -38,5 +29,14 @@ namespace _451ecommerce {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button btnAddToCart;
+        
+        /// <summary>
+        /// ProductView control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.SqlDataSource ProductView;
     }
 }

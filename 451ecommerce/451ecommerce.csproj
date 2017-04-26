@@ -185,6 +185,18 @@
     <Content Include="About.aspx" />
     <Content Include="Admin.aspx" />
     <Content Include="AdminLogin.aspx" />
+    <Content Include="Images\101.JPG" />
+    <Content Include="Images\102.JPG" />
+    <Content Include="Images\103.JPG" />
+    <Content Include="Images\104.JPG" />
+    <Content Include="Images\105.JPG" />
+    <Content Include="Images\106.JPG" />
+    <Content Include="Images\107.JPG" />
+    <Content Include="Images\108.JPG" />
+    <Content Include="Images\109.jpg" />
+    <Content Include="Images\110.JPG" />
+    <Content Include="Images\111.JPG" />
+    <Content Include="Images\112.JPG" />
     <Content Include="ShoppingCart.aspx" />
     <Content Include="CustomerLogin.aspx" />
     <Content Include="Products.aspx" />
@@ -473,7 +485,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Product Images\" />
+    <Folder Include="Product_Images\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
