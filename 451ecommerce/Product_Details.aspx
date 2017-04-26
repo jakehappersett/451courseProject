@@ -26,7 +26,10 @@
 </asp:GridView>--%>
 
      <div >
-     <asp:DataList ID="dl_prod" runat="server" >
+     <asp:DataList ID="dl_prod" runat="server" BackColor="#CCCCCC" BorderColor="#999999" BorderStyle="Solid" BorderWidth="3px" CellPadding="4" CellSpacing="2" ForeColor="Black" GridLines="Both" >
+         <FooterStyle BackColor="#CCCCCC" />
+         <HeaderStyle BackColor="Black" Font-Bold="True" ForeColor="White" />
+         <ItemStyle BackColor="White" />
          <ItemTemplate>
              <table style="width:101%; align-content:center; ">
                  <tr>
@@ -44,6 +47,7 @@
                  </tr>
              </table>
          </ItemTemplate>
+         <SelectedItemStyle BackColor="#000099" Font-Bold="True" ForeColor="White" />
      </asp:DataList>
     &nbsp;<asp:Button ID="btnAddToCart" runat="server" OnClick="btnAddToCart_Click" Text="Add To Cart" />
 </div>

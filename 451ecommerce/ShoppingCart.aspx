@@ -3,8 +3,6 @@
     <asp:GridView ID="gvShoppingCart" runat="server" AutoGenerateColumns="False" OnRowCancelingEdit="gvShoppingCart_RowCancelingEdit" OnRowDeleting="gvShoppingCart_RowDeleting" OnRowEditing="gvShoppingCart_RowEditing" OnRowUpdating="gvShoppingCart_RowUpdating">
         <Columns>
             <asp:BoundField DataField="product_name" HeaderText="Product Name" ReadOnly="True" />
-            <asp:ImageField DataImageUrlField="product_image" DataImageUrlFormatString="&quot;~\Product_Images\{0}&quot;" HeaderText="Image" ReadOnly="True">
-            </asp:ImageField>
             <asp:BoundField DataField="product_price" HeaderText="Price" />
             <asp:BoundField DataField="product_quantity" HeaderText="Quantity" />
             <asp:TemplateField HeaderText="Total">
