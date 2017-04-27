@@ -14,5 +14,5 @@
             <asp:CommandField ShowDeleteButton="True" />
         </Columns>
     </asp:GridView>
-<asp:Label ID="lblGrandTotal" runat="server" Text="GrandTotal" Visible="False"></asp:Label>
+<asp:Label ID="lblGrandTotal" runat="server" Text="Grand Total" Visible="False"></asp:Label>
 </asp:Content>

@@ -54,7 +54,7 @@ namespace _451ecommerce
 
         protected void gvShoppingCart_RowUpdating(object sender, GridViewUpdateEventArgs e)
         {
-            TextBox txtProduct_Quantity = (TextBox)gvShoppingCart.Rows[e.RowIndex].Cells[3].Controls[0];
+            TextBox txtProduct_Quantity = (TextBox)gvShoppingCart.Rows[e.RowIndex].Cells[2].Controls[0];
             int quantity = Int32.Parse(txtProduct_Quantity.Text);
             myCart.Update(e.RowIndex, quantity);
             gvShoppingCart.EditIndex = -1;
